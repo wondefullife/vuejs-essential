@@ -1,8 +1,7 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <h1>Welcome to Vue Family</h1>
-  </div>
+<template lang="pug">
+  div#app
+    img(src="./assets/logo.png")
+    h1 welcome from puh & sass
 </template>
 
 <script>
@@ -20,5 +19,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
+  h1 {
+    color: aqua;
+  }
 }
 </style>
